@@ -18,13 +18,5 @@ These can be found on the automate accounts page on [BrowserStack](https://www.b
 `export BROWSERSTACK_KEY=<browserstack-access-key>`
 
 ### Run tests
-
-cd to `Local Testing` or `Live Testing` directories for local and live testing respectively.
-
-Install the dependencies using -
-
-`npm install`
-
-Then tests can be run via the command -
-
-`npm test`
+ - To test run: `npm test`
+ - To start a local test run: `npm run test_local`

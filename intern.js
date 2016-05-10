@@ -4,9 +4,7 @@ define({
   capabilities: {
     name: 'Sample Intern Live-Testing',
     build: 'build',
-    'browserstack.selenium-version': '2.45.0',
-    'browserstack.local': false,
-    fixSessionCapabilities: false
+    "browserstack.local": false
   },
 
   defaultTimeout: 300000,
@@ -15,7 +13,7 @@ define({
     { browser: 'Chrome', browser_version: '44.0', os: 'OS X', os_version: 'Yosemite' },
     { browser: 'Firefox', browser_version: '40.0', os: 'Windows', os_version: 'XP' },
     { browser: 'Opera', browser_version: '12.16', os: 'Windows', os_version: '8.1' },
-    { browser: 'IE', browser_version: '8.0', os: 'Windows', os_version: '7' }
+    { browser: 'IE', browser_version: '11.0', os: 'Windows', os_version: '10' }
   ],
 
   maxConcurrency: 2,
