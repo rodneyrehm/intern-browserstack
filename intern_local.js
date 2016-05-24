@@ -23,7 +23,7 @@ define({
   tunnelOptions: {
     verbose: true,
     username: process.env.BROWSERSTACK_USERNAME,
-    accessKey: process.env.BROWSERSTACK_KEY
+    accessKey: process.env.BROWSERSTACK_ACCESS_KEY
   },
 
   reporters: [ 'Pretty' ],
