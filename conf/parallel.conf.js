@@ -11,10 +11,13 @@ define({
   defaultTimeout: 300000,
 
   environments: [
-    { browser: 'Chrome' },
-    { browser: 'Firefox' },
-    // { browser: 'Safari' },
-    // { browser: 'IE' },
+    { browser: 'Chrome'},
+    { browser: 'Safari' },
+    { browser: 'IE', nativeEvents: true},
+    { browser: 'Firefox', browser_version: '47', browserName: 'Firefox 47' },
+    { browser: 'Firefox', browser_version: '48', browserName: 'Firefox 48' },
+    { browser: 'Firefox', browser_version: '49', browserName: 'Firefox 49' },
+    { browser: 'Firefox', browser_version: '50', browserName: 'Firefox 50' },
   ],
 
   maxConcurrency: 2,
