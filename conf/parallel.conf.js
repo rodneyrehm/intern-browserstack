@@ -13,11 +13,11 @@ define({
   environments: [
     { browser: 'Chrome' },
     { browser: 'Firefox' },
-    { browser: 'Safari' },
-    { browser: 'IE' },
+    // { browser: 'Safari' },
+    // { browser: 'IE' },
   ],
 
-  maxConcurrency: 4,
+  maxConcurrency: 2,
 
   tunnel: 'BrowserStackTunnel',
 
